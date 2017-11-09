@@ -1,0 +1,26 @@
+ip: 192.168.10.10
+synced_folder:   
+  host_path: "./wordpress/"
+  guest_path: "/magento2/" 
+mysql:   
+  host: "127.0.0.1"   
+  username: root
+  password: user123
+http_basic:   
+  repo_magento_com:     
+    username: ""    
+    password: ""
+github_oauth:   
+  github_com: "" 
+magento:   
+  db_name: "wordpress"
+  admin_firstname: "John"
+  admin_lastname: "Doe"
+  admin_password: "admin123"
+  admin_user: "admin"
+  admin_email: "admin@gmail.com"
+  backend_frontname: "admin"
+  base_url: "http://192.168.10.10/wordpress/"
+github:
+  repository: ""
+

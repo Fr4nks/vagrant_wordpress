@@ -1,0 +1,4 @@
+
+    # adds a AllowOverride All after "<Directory "/var/www/html">
+    ====================================================================
+    sed -i "s/<Directory \"\/var\/www\/html\">/<Directory \"\/var\/www\/html\">\n\tAllowOverride All/" php.ini
