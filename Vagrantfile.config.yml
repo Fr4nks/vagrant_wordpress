@@ -1,17 +1,11 @@
 ip: 192.168.10.10
 synced_folder:   
   host_path: "./wordpress/"
-  guest_path: "/magento2/" 
+  guest_path: "/wordpress/" 
 mysql:   
   host: "127.0.0.1"   
   username: root
   password: user123
-http_basic:   
-  repo_magento_com:     
-    username: ""    
-    password: ""
-github_oauth:   
-  github_com: "" 
 magento:   
   db_name: "wordpress"
   admin_firstname: "John"
