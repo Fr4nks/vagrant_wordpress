@@ -4,7 +4,7 @@ How to change this file?
 ```
 git pull
 ```
-Make changes
+Git Make changes
 ```
 git add .
 git commit -m "my heading"
