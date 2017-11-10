@@ -10,3 +10,8 @@ git add .
 git commit -m "my heading"
 git push
 ```
+MySQL
+```
+mysql -u root -p
+mysql> SHOW DATABASES;
+```
