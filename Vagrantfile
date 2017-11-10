@@ -58,9 +58,6 @@ Vagrant.configure(2) do |config|
     echo INSTALL COMPOSER
     curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
     mv composer.phar /usr/local/bin/composer
-    composer clearcache
-    composer global config github-oauth.github.com #{vagrantConfig['github_oauth']['github_com']}
-    composer clearcache
     
     echo INSTALL GIT
     sudo apt-get install -y git
