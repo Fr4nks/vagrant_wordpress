@@ -1,5 +1,9 @@
 # Wordpress Development Environment
 # Git commands
+Clone into current directory.
+```
+git clone https://github.com/Fr4nks/vagrant_wordpress.git .
+```
 How to change this file?
 ```
 git pull
